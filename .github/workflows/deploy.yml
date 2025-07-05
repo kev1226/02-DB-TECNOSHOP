@@ -40,11 +40,11 @@ jobs:
           script: |
             cd /home/ubuntu
 
-            if [ ! -d "infra-backend-services" ]; then
+            if [ ! -d "02-DB-TECNOSHOP" ]; then
               git clone https://github.com/kev1226/02-DB-TECNOSHOP.git
             fi
 
-            cd infra-backend-services
+            cd 02-DB-TECNOSHOP
             git fetch origin
             git reset --hard origin/${{ steps.set-vars.outputs.branch }}
 
