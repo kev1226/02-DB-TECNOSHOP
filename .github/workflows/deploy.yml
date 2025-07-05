@@ -41,7 +41,7 @@ jobs:
             cd /home/ubuntu
 
             if [ ! -d "infra-backend-services" ]; then
-              git clone https://github.com/kev1226/infra-backend-services.git
+              git clone https://github.com/kev1226/02-DB-TECNOSHOP.git
             fi
 
             cd infra-backend-services
